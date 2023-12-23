@@ -1,0 +1,121 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:linear-garadient(to right #21006f);
+}
+
+h1{
+    text-align: center;
+    color: rgb(220, 220, 220) ;
+    font-size: 3em;
+}
+
+.button{
+    display: inline;
+}
+
+
+.container{
+    /* display: grid; */
+    /* grid-template-columns: repeat(4,100px); */
+    /* grid-template-rows:minmax(120px, auto) repeat(5,100px); */
+    /* justify-content: center; */
+/*  
+    margin-left: 35vw;
+    margin-top: 10vh;
+    width: 300px;
+    height: 500px;
+    padding: 30px;
+   
+    border-radius: 12px;
+    box-shadow: 10px 10px 20px 5px rgba(148, 148, 148, .1); */
+
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1) ;
+}
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    /* margin: 15px 10px;
+    padding: 10px 4px;
+    font-size: 28px;
+    width: 250px;
+    color: rgb(162, 162, 162);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 2px rgba(148, 148, 148, .1);; */
+
+}
+.buttons{
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr,1fr,1fr,1fr;
+}
+
+.buttons > div
+{
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.button{
+
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equal{
+    background-color: #5555ff;
+    color: white;
+}
+.button:hover
+{
+    background-color: red;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+/* .calculator-grid> button{
+    cursor: pointer;
+    font-size: 2rem;
+    border:  1px solid white;
+    outline: none;
+    background-color: rgb(255,255,255,.75);
+} */
+
+/* table{
+    padding: 5% 10px;
+} */
+
+
+
+
+
+/* input[type=button]{
+    font-family: sans-serif;
+    padding: 0;
+    width: 65px;
+    height: 65px;
+    font-size: 28px;
+    background-color: rgb(10, 0, 46);
+    color: #c4c4c4;
+    opacity: .8;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px 2px rgba(148, 148, 148, .1);;
+} */
+
+
+/* .calculator-grid>button:hover{
+    color: rgb(254, 0, 0);
+}
+ */
+
+
+
